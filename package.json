@@ -1,0 +1,24 @@
+{
+  "paymentIntentId": "pi_xxxxx",
+  "orderPayload": {
+    "data": {
+      "selected_offers": ["off_xxxxx"],
+      "passengers": [
+        {
+          "given_name": "John",
+          "family_name": "Doe",
+          "born_on": "1998-01-01",
+          "email": "john@example.com",
+          "phone_number": "+17875551234",
+          "title": "mr",
+          "gender": "m"
+        }
+      ],
+      "payments": {
+        "type": "balance",
+        "amount": "123.45",
+        "currency": "USD"
+      }
+    }
+  }
+}
